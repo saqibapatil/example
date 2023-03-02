@@ -1,0 +1,489 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Earthly</title>
+		<link href="bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		 <!---- animated-css ---->
+		<link href="animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="wow.min.js"></script>
+		<script>
+		    new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="move-top.js"></script>
+		<script type="text/javascript" src="easing.js"></script>
+		<script type="text/javascript">
+		    jQuery(document).ready(function ($) {
+		        $(".scroll").click(function (event) {
+		            event.preventDefault();
+		            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+		        });
+		    });
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<link href="style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+		    $(function () {
+		        var pull = $('#pull');
+		        menu = $('nav ul');
+		        menuHeight = menu.height();
+		        $(pull).on('click', function (e) {
+		            e.preventDefault();
+		            menu.slideToggle();
+		        });
+		        $(window).resize(function () {
+		            var w = $(window).width();
+		            if (w > 320 && menu.is(':hidden')) {
+		                menu.removeAttr('style');
+		            }
+		        });
+		    });
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="container">						
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+                                <li><div class="earth"></div></li>
+                                <li class="waviy">
+                                    <span style="--i:1">E</span>
+                                    <span style="--i:2">A</span>
+                                    <span style="--i:3">R</span>
+                                    <span style="--i:4">T</span>
+                                    <span style="--i:5">H</span>
+                                    <span style="--i:6">L</span>
+                                    <span style="--i:7">y</span>
+                                    <span style="--i:8">.</span>
+                                    <p style="color:#e7e7e7">Sustainable products at affordable prices</p>
+                                </li>
+								<li style="padding-top:25px"><a href="#home" class="scroll"><button class="button button1"style="background-color:#e7e7e7">Home</button></a></li>
+								<li style="padding-top:25px"><a href="#services" class="scroll"><button class="button button1">services</button></a></li>
+								<li style="padding-top:25px"><a href="#port" class="scroll"><button class="button button1">Portfolio</button></a></li>
+								<li style="padding-top:25px"><a href="#team" class="scroll"><button class="button button1">Team</button></a></li>
+								<li style="padding-top:25px"><a href="#contact" class="scroll"><button class="button button1">Contact</button></a></li>
+							</ul>
+							<a href="#" id="pull"><img src="menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner ---->
+			<div class="banner wow fadeIn" data-wow-delay="0.5s">
+				<div class="container">
+					<div class="banner-info text-center">
+						<h1>"Be a part of the solution not part of polllution"</h1><br />
+						<span> </span>
+						<p>We believe in manufacturing things that are not harmful to the earth!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!---- banner ---->
+			<!--- services --->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h2>Our Services</h2>
+						<span> </span>
+					</div>
+					<!--- services-grids --->
+					<div class="services-grids text-center">
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon1"> </span>
+								<h3><a href="#">Bamboo Products</a></h3>
+								<p>EARTHLY IS PLANT-BASED AND MADE FROM:<br />1.BAMBOO AND WHEAT FIBRE.<br/>2.ORANGE FIBRE.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon2"> </span>
+								<h3><a href="#">Beautiful Designs</a></h3>
+								<p>As much as it is good for nature, it is also very beautiful in appearance, you will fall in love with it.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon3"> </span>
+								<h3><a href="#">24/7 Support</a></h3>
+								<p>We work 24/7 to reduce the pollution of the world and to give 100% to our users.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- services-grids --->
+				</div>
+			</div>
+			<!--- services --->
+			<div class="clearfix"> </div>
+			<!--- Other Expertise ---->
+			<div id="port" class="expertise">
+				<div class="expertice-grids">
+					<div class="col-md-8 expertice-left-grid wow fadeInLeft" data-wow-delay="0.4s">
+						<div class="expertise-head">
+							<h3>So why should we use bamboo instead of plastic?</h3>
+							<p>Bamboo is a highly renewable, natural material that has antibacterial, antifungal properties and is biodegradable as opposed to plastic. Plastic can take up to 1000 years to biodegrade and is the leading cause of mass pollution all over the world.</p>
+						</div>
+						<div class="expertise-left-inner-grids">
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon1"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>eco-sustainable plant</h4>
+									<p>They are neither cultivated nor used intensively as it grows autonomously and steadily.Furthermore, with its network of underground roots, it prevents soil erosion and drainage.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon2"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>Very good for environment</h4>
+									<p>widely available and which benefits the forest ecosystem, as it absorbs much more carbon dioxide than wood of an equivalent size (up to 40 times more), whilst at the same time it releases 35% more oxygen</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon3"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>All star support team</h4>
+									<p>Our team is always ready to help you and save this world from pollution</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon4"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>take oath</h4>
+									<p>Help us to save the world from pollution and you also take an oath not to use plastic.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<a class="leran-more" href="#">Learn more</a>
+					</div>
+					<div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s">
+						
+					</div>
+					<div class="clearfix"> </div> 
+				</div>
+			</div>
+           <div class="Aboutearthly">
+               <h2>About earthly</h2>
+               <span> </span>
+               <p >It’s high time for all of us to think about our impression and capacity to lessen the waste and its impacts on the climate. This must be finished by settling on a responsible choice of utilizing eco-friendly products. Earthly Eco-friendly products like bamboo toothbrushes, bamboo straws, plant-based coffee cups, and many sustainable products are items that are not unsafe to the climate. These are items produced using sustainable and organic raw materials. Earthly products are of the best quality and in the best designs. What’s more, it’s shockingly easy to roll out sure improvements to your way of life just by sorting out where to begin. Rather than utilizing a plastic cup, trade it for eco-friendly cups and eco-friendly containers. Earthly organic products are the most affordable option in the market. The other alternatives are expensive and lack quality.</p>
+               <p >Enter Earthly, a spot for businesses that need to be a part of the green movement. We do an amazing job to give you the information and alternative sustainable products for your cafes and food business. Earthly has a fair trade policy for all business deals. You have the right to place orders for sustainable products that go with your budget and business. We’re endeavoring to set new principles, increase present expectations, and review what is useful for your business and our planet. Each move you make as a business is a chance to be better. When you shop at Earthly, you add to a superior future for every one of us. So now you know a superior method to shop sustainable products, and join the development beneath! We offer a variety of biodegradable options like biodegradable cups, biodegradable containers, organic toothbrushes and many more to choose from.</p>
+           </div>
+			<!--- Other Expertise ---->
+			<!--- portfolio ---->
+			<div class="portfolio">
+				<div class="portfolio-top">
+					<div class="col-md-8">
+						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+							<h3>Sustainability Starter Kit</h3>
+							<p>Plastic bowls can leach chemicals into the food that you eat. This is especially true when eating foods high in acidic content, such as sauerkraut. Bamboo dinnerware will not only add an elegant, earthy look to your table, it’s also a giant leap away from ingesting latent chemicals from the plastic manufacturing process. As mentioned above, bamboo is 100% biodegradable.</p>
+							<p>Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
+							<div class="portfolio-top-left-grids">
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon1"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>NATURAL AND CHEMICAL-FREE</h5>
+										<p>Bamboo is grown without using pesticides or chemical fertilizers.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon2"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>Features</h5>
+										<p>1.Govt Approved, Tested, and approved in TUV Rhineland, Germany<br/>2.100% recyclable and non-toxic<br/>3.Leak-Proof<br/>4.Odorless tasteless and doesn’t react with hot beverages<br/>5.Lightweight<br/>6.Microwavable</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon3"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>MADE FROM</h5>
+										<p><b>BAMBOO AND WHEAT FIBRE</b>:Sourced from local farmers, plant residue from Wheat, Barley, and Bamboo is molded into durable cups using our proprietary technology.</p>
+                                        <p><b>ORANGE FIBRE</b>:Made from Orange peels and other organic matter left behind after Orange is harvested.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
+						<div class="portfolio-top-right">
+							
+						</div>
+                        <p class="kit">Price:&#8364; 10.99</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+					</div>
+					<div class="clearfix"> </div>
+					<!---- portfolio-works ---->
+					<div class="portfolio-works">
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="p1.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Reusable Containers</h4>
+								<p>plant residue from Bamboo, Wheat, Rice, and Barley is processed and molded into reusable containers.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="p2.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Reusable Cups</h4>
+								<p>plant residue from Bamboo, Wheat, Rice, and Barley is processed and molded into reusable cups which can be used hundreds of times.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="p3.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Reusable Bamboo Straws</h4>
+								<p>We collaborated with artisans in Veitnam, Earthly Organic Bamboo Straws are 100% Compostable.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="p4.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Bamboo Toothbrush </h4>
+								<p>Earthly Bamboo Toothbrush are BPA free, Biodegradable and have charcoal infused bristles that help remove stains effectively!</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="p5.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Natural Bamboo Loofah</h4>
+								<p>Natural loofah sponges actually come from the fruits of vine-growing Luffa plants.It is biodegradable.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="p6.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Bamboo Earbuds</h4>
+								<p>What's Best - These cotton swabs are plastic free, Natural Bamboo with Pure Cotton which makes them soft, absorbent,  gentle, and safe to use.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---- portfolio-works ---->
+				</div>
+			</div>
+			<!--- portfolio ---->
+			<!---- about ---->
+			<!---start-about---->
+		<div class="about">
+			<div class="wrap"> 
+				<div class="about-head">
+					<h1>About Product Features</h1>
+					<span> </span>
+				</div>
+				<!---start-about-time-line---->
+				<div class="about-time-line">
+					<li>
+							<div class="cbp_tmicon img1"> </div>
+							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+								<h2>Plant Based Reusable Containers</h2>
+								<p>*100% recyclable.<br />*Govt Approved, Tested and approved in TUV Rhineland Germany.<br />*Chemical Free<br />*Easily Portable takeaway containers<br />*Odorless tasteless and doesn’t react with hot food<br />*Lightweight<br />*Microwavable<br />*Recyclable and reusable</p>
+							    <p class="left">Price:&#8364; 2.99</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+                            </div>
+					</li>
+					<li>
+							<div class="cbp_tmicon1 img2"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+								<h2>Plant Based Reusable Cups.</h2>
+								<p>*Every batch of cups is unique due to being natural<br />*Lids available in different Colours<br />*Designed in USA<br />*Govt Approved, Tested, and approved in TUV, Germany<br />*100% recyclable and non-toxic<br />*Lightweight<br />*Microwavable<br />*Leak-Proof<br />Odorless tasteless and doesn’t react with hot beverages</p>
+							    <p class="linethrough left">Price:&#8364; 2.99</p>
+                                <p class="left">Price:&#8364; 2.39</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+							</div>
+					</li><br />
+					<li>
+							<div class="cbp_tmicon2 img3"> </div>
+							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+								<h2>Reusable Bamboo Straws</h2>
+								<p>*100% natural, toxic-free, vegan <br />*Odorless, tasteless, washable, reusable, durable<br />*Eco-friendly and sustainable<br />*100% Cruelty-free<br />*Hand-made by Local Artisans<br />*Biodegradable packaging</p>
+							    <p class="linethrough left">Price:&#8364;4.49</p>
+                                <p class="left">Price:&#8364;  1.99</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon3 img4"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+								<h2>Bamboo Toothbrush</h2>
+								<p>*100% natural and toxic-free<br />*Vegan product<br />*Eco friendly and sustainable<br />*Made by Indian Artisans<br />*Aesthetically pleasing design<br />*Zero-Plastic, biodegradable packaging</p>
+							    <p class="linethrough left">Price:&#8364;4.49</p>
+                                <p class="left">Price:&#8364; 3.59</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+							</div>
+					</li>
+                    <li>
+							<div class="cbp_tmicon2 img5"> </div>
+							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+								<h2>Natural Bamboo Loofah</h2>
+								<p>*Plant-based material; Better for the skin - No Chemicals<br />*Exfoliation - Removing dead skin cells not only improves the look of your skin, it also sweeps away places where bacteria and soil could collect<br />*Improving Circulation - Unlike harshly abrasive scrubbers and sponges, a loofah's firm but elastic fibers are round in cross section and are less likely to scratch skin</p>
+							    <p class="linethrough left">Price:&#8364;3.99</p>
+                                <p class="left">Price:&#8364; 2.99</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+							</div>
+					</li>
+                    <li>
+							<div class="cbp_tmicon3 img6"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+								<h2>Bamboo Earbuds</h2>
+								<p>*Gently cleans your ear wax<br />*Can be used to take your make-up off<br />*Made from Bamboo and 100% Cotton<br />*Comes in 100% eco-friendly and degradable packaging<br />*Sustainable and Bio-degradable</p>
+							    <p class="left">Price:&#8364; 2.99</p>
+                        <button class="wow shake button2" data-wow-delay="0.3s">Buye Now</button>
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon4 img7"> </div>
+					</li>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+				</div>
+				<!---//End-about-time-line---->
+			<!---- about ---->
+		</div>
+			<!---- team --->
+			<div id="team" class="team-members">
+					<div class="wrap"> 
+						<div class="tm-head">
+							<h3>Our Amazing Team</h3>
+							<p>People work for money but they give their best efforts for recognition.</p>
+						</div>
+						<div class="tm-head-grids">
+							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
+								<img src="team-member1.jpg" alt="">
+								<h4>Kimberly Thompson</h4>
+								<h5>Manager</h5>
+								<ul class="top-social-icons">
+									<li><a class="twitter" href="#"> </a></li>
+									<li><a class="facebook" href="#"> </a></li>
+									<li><a class="pin" href="#"> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
+								<img src="team-member2.jpg" alt="">
+								<h4>Rico Massimo</h4>
+								<h5>woodworker</h5>
+								<ul class="top-social-icons">
+									<li><a class="twitter" href="#"> </a></li>
+									<li><a class="facebook" href="#"> </a></li>
+									<li><a class="pin" href="#"> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.4s">
+								<img src="team-member3.jpg" alt="">
+								<h4>Marketer</h4>
+								<h5>Graphic Designer</h5>
+								<ul class="top-social-icons">
+									<li><a class="twitter" href="#"> </a></li>
+									<li><a class="facebook" href="#"> </a></li>
+									<li><a class="pin" href="#"> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<p class="team-info">Join us to stop the growing plastic pollution in this world</p>
+					</div>
+				</div>
+			<!---- team --->
+			<!---- contact --->
+			<div id="contact" class="contact">
+				<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-6">
+						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
+							<h3>Contact Us</h3>
+							<label>Don't be shy, drop us an email and say hello! We are a really nice bunch of people :)</label>
+							<div class="contact-left-grids">
+								<div class="col-md-6">
+									<div class="contact-left-grid">
+										<p><span class="c-mobi"> </span>+353 1552 4908</p>
+										<p><span class="c-twitter"> </span><a href="#">@earthly</a></p>
+										<p><span class="c-pluse"> </span><a href="#">https://www.earthly.ie/</a></p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="contact-right-grid">
+										<p><span class="c-msg"> </span><a href="mailto:hello@earthly.ie">hello@earthly.ie</a></p>
+										<p><span class="c-face"> </span><a href="#">facebook.com/earthly</a></p>
+										<p><span class="c-pin"> </span><a href="#">pinterest.com/earthly</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
+							<form>
+								<input type="text" class="text" value="Name..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
+					 			<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}">
+					 	 		<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+								<input class="wow shake" data-wow-delay="0.3s" type="submit" value="Send Message" />
+							</form>
+						</div>
+                        <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="Span1" style="opacity: 1;"> </span></a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>				
+			</div>
+			</div>
+			<!---- contact --->		
+	</body>
+</html>
+
